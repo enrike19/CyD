@@ -10,5 +10,9 @@ package hilos;
  * @author desarrollo2
  */
 public class otrarama {
-    public otrarama(){}
+    public otrarama(){
+        
+        int x;
+        
+    }
 }

@@ -17,7 +17,7 @@ import java.net.*;
             String msg="";   
             String msg_mayus;   
             
-            while(msg != "salir"){
+            while(!msg.equals( "salir" )){
                 BufferedReader inFromUser = new BufferedReader( new InputStreamReader(System.in));   
                 Socket socket = new Socket("localhost", 6789);   
                 DataOutputStream outToServer = new DataOutputStream(socket.getOutputStream());   

@@ -18,7 +18,7 @@ class TCPServer {
         String mayus;          
         
         System.out.println("Servidor Activo");
-        while(msg != "salir"){      
+        while(!msg.equals( "salir" )){      
             
             ServerSocket serverSocket = new ServerSocket(6789); 
             Socket socket;
